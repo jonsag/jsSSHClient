@@ -57,7 +57,7 @@ if connect:
                 px.close(ssh, verbose)
                 break
             else:
-                px.runCommand(ssh, command, verbose)
+                px.runCommand(ssh, command, verbose) # send command
     elif clientType == "paramiko":
         import prmko
         ssh = prmko.connect(hostParams, verbose)
