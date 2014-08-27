@@ -43,7 +43,6 @@ hostAddress = "amd64-4400"
 hostPort = 22
 userName = "root"
 passWord = "amd64-4400myth0185"
-        
 hostParams = (hostName, hostAddress, hostPort, userName, passWord)
 
 if connect:
